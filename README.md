@@ -8,7 +8,12 @@
 -I am taking STATS 220 because I have a **keen interest** in data
 -I am interested in learning about the application of statisical analysis in my field
 
-my top 3 species of animal are:
+fun facts which are unordered for me:
+- I love orangutans
+- who ever is reading this is cool
+- yay 
+
+The order of favourisism of orangutan species of mine:
 <ol>
   <li>Sumatran</li>
   <li>Bornean</li>
