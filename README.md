@@ -9,7 +9,7 @@
 -I am interested in learning about the application of statisical analysis in my field
 
 fun facts which are unordered for me:
-- I love orangutans
+- I **love** orangutans
 - who ever is reading this is cool
 - yay 
 
