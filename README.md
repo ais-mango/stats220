@@ -8,12 +8,8 @@
  <li>I am undertaking a degree in *Biomedical Science*</li>
 <li>I am taking STATS 220 because I have a **keen interest** in data</li>
 <li>I am interested in learning about the application of statisical analysis in my field</li>
+ <li>I **love** orangutans</li>
 </ul>
- fun facts which are unordered for me:
-
-- I **love** orangutans
-- who ever is reading this is cool
-- yay 
 
 The order of favourisism of orangutan species of mine:
 <ol>
@@ -22,8 +18,28 @@ The order of favourisism of orangutan species of mine:
   <li>Tapanuli </li>
 </ol>
 
-link to another website: ?
+[2 all the boyz ive ❤️ b4](https://www.rottentomatoes.com/m/to_all_the_boys_ive_loved_before)
+![](https://www.rottentomatoes.com/m/to_all_the_boys_ive_loved_before)
+
+
+
+
+
+
+
+
+
 
 A meme that captures how I currently feel about my university studies is:
+
+
+
+
+
+
+
+
+
+
 ![](https://media1.tenor.com/m/oTeBa4EVepMAAAAC/business-cat-working.gif)
 
