@@ -3,10 +3,10 @@
 <h1>This is my repo for STATS 220.</h1>	
 
 <h2>A little about me:</h2>	
--I am undertaking a degree in *Biomedical Science*
--I am taking STATS 220 because I have a **keen interest** in data
--I am interested in learning about the application of statisical analysis in my field
-
+<ul>I am undertaking a degree in *Biomedical Science*
+</li>I am taking STATS 220 because I have a **keen interest** in data
+<li>I am interested in learning about the application of statisical analysis in my field
+</li>
 fun facts which are unordered for me:
 - I **love** orangutans
 - who ever is reading this is cool
