@@ -6,9 +6,11 @@
 
 <ul>
  <li>I am undertaking a degree in *Biomedical Science*</li>
-</li>I am taking STATS 220 because I have a **keen interest** in data</li>
+<li>I am taking STATS 220 because I have a **keen interest** in data</li>
 <li>I am interested in learning about the application of statisical analysis in my field</li>
-fun facts which are unordered for me:
+</ul>
+ fun facts which are unordered for me:
+
 - I **love** orangutans
 - who ever is reading this is cool
 - yay 
