@@ -11,7 +11,7 @@
  <li>I love orangutans</li>
 </ul>
 
-The order of **favourisism** of *Pongo sp.* orangutan species of mine:
+The order of **favourisism** of *Pongo sp.* (orangutan) species of mine:
 <ol>
   <li>Sumatran</li>
   <li>Bornean</li>
