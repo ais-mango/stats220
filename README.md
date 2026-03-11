@@ -19,7 +19,7 @@ The order of favourisism of orangutan species of mine:
 </ol>
 
 [2 all the boyz ive ❤️ b4](https://www.rottentomatoes.com/m/to_all_the_boys_ive_loved_before)
-![](https://www.rottentomatoes.com/m/to_all_the_boys_ive_loved_before)
+![](https://resizing.flixster.com/B6fsyFrkqmIbaXuC_es_pyX4KOU=/206x305/v2/https://resizing.flixster.com/6EdCRefP8am-X9ySfQh-hpfar1w=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E1Nzg4ZTJhLWJmNWItNGI0My1iMDY4LTFiYTI3NTU4YTlhZS53ZWJw)
 
 
 
