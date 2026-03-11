@@ -3,20 +3,15 @@
 <h1>This is my repo for STATS 220.</h1>	
 
 <h2>A little about me:</h2>	
--I am undertaking a degree in *Biomedical Science*
--I am taking STATS 220 because I have a **keen interest** in data
--I am interested in learning about the application of statisical analysis in my field
--I **love** orangutans
-
 
 <ul>
- <li>I am undertaking a degree in *Biomedical Science*</li>
-<li>I am taking STATS 220 because I have a **keen interest** in data</li>
+ <li>I am undertaking a degree in Biomedical Science</li>
+<li>I am taking STATS 220 because I have a keen interest in data</li>
 <li>I am interested in learning about the application of statisical analysis in my field</li>
- <li>I **love** orangutans</li>
+ <li>I love orangutans</li>
 </ul>
 
-The order of favourisism of orangutan species of mine:
+The order of **favourisism** of *Pongo sp.* orangutan species of mine:
 <ol>
   <li>Sumatran</li>
   <li>Bornean</li>
