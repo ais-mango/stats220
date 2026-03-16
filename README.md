@@ -47,5 +47,5 @@ A meme that captures how I currently feel about my university studies is:
 
 
 
-![](https://media1.tenor.com/m/oTeBa4EVepMAAAAC/business-cat-working.gif)
+![](https://media1.tenor.com/m/5-dT0UY9PKQAAAAd/beni-orangutan.gif)
 
