@@ -18,7 +18,7 @@ The order of **favourisism** of *Pongo sp.* (orangutan) species of mine:
   <li>Tapanuli </li>
 </ol>
 
-[2 all the boyz ive ❤️ b4](https://www.rottentomatoes.com/m/to_all_the_boys_ive_loved_before)
+[click here for a laugh](https://puginarug.com/)
 
 
 
