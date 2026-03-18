@@ -2,6 +2,12 @@
 
 <h1>This is my repo for STATS 220.</h1>	
 
+
+
+
+
+![](https://media.tenor.com/92MplgQwb80AAAAM/cat-meme-wave-emoji.gif)
+
 <h2>A little about me:</h2>	
 
 <ul>
@@ -19,13 +25,13 @@ The order of **favourisism** of *Pongo sp.* (orangutan) species of mine:
 </ol>
 
 [click here for a laugh](https://puginarug.com/)
+[take me to a useless website](https://puginarug.com/)
 
 
 
 
 
 
-![](https://resizing.flixster.com/B6fsyFrkqmIbaXuC_es_pyX4KOU=/206x305/v2/https://resizing.flixster.com/6EdCRefP8am-X9ySfQh-hpfar1w=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E1Nzg4ZTJhLWJmNWItNGI0My1iMDY4LTFiYTI3NTU4YTlhZS53ZWJw)
 
 
 
