@@ -24,7 +24,15 @@ The order of **favourisism** of *Pongo sp.* (orangutan) species of mine:
   <li>Tapanuli </li>
 </ol>
 
-[click here for a laugh](https://puginarug.com/)
+
+![i LOVEEEEEE apes](https://www.ikea.com/nz/en/images/products/djungelskog-soft-toy-orangutan__0710167_pe727369_s5.jpg)
+
+[click here for orangutan info](https://en.wikipedia.org/wiki/Orangutan)
+
+
+
+
+
 [take me to a useless website](https://puginarug.com/)
 
 
