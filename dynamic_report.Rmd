@@ -1,0 +1,139 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+```
+
+
+```{css}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic+Condensed+One&display=swap') ;
+body{
+font-family: 'Special Gothic Condensed One', sans-serif;
+}
+body{
+background-color: #FFC7C7
+ }
+ body{
+ font-size: 24px
+ }
+ 
+ h2 {
+  background-color: #FF0000;   
+  color: white;             
+  display: inline-block;      
+  padding: 10px 20px;          
+  border-radius: 12px;        
+  font-size: 40px;
+  text-align: center;
+}
+ 
+ 
+
+
+```
+
+## what have you (tube) been watching??
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTN4d2I1N2hnNmd4MzNnODJ0bjVmZnJwNXJhMGlmemI4bmx0bnJqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P8CC8QCewsRhRTTQpx/200.webp)
+
+
+This is the observational data of you tube that I have been watching over the last fortnight. Data was collected about the time of watching, the length, retention (how much watched), along with rated scoring.
+
+```{r}
+
+library(tidyverse)
+library(lubridate)
+
+form_url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKICmRcY2_LIvnRm-IDsg0O3B3Km52MJkmtNFVyz_MRZMIc32H3AN7uJHUTQTTfyfpJFtOCE5DtJ30/pub?output=csv"
+
+logged_data <- read_csv(form_url)
+renamed_data <- logged_data %>%
+  rename(genre= 2, 
+         start_time = 3, 
+         total_length = 4,
+         watched_all = 5,
+         retention_time = 6, 
+         video_score = 7,
+         URL= 8) %>% 
+         
+mutate(total_length_mins = parse_number(as.character(total_length/60)))
+
+library(tidyverse)
+
+observations<-tibble(renamed_data) %>% 
+  nrow()
+
+total_mins<-renamed_data$total_length_mins
+ max_mins <- round(max(total_mins), digits=1 )
+ min_mins <- round(min(total_mins), digits=1)
+ mean_mins <- round(mean(total_mins), digits=1)
+ 
+ 
+  score<-renamed_data$video_score
+  score_mean<-mean(score)
+  
+  
+  #this shows grouping of genre (BUT COLOURED)
+bar4<-renamed_data %>%
+  ggplot() +
+  geom_bar(aes(x = genre),
+           fill = '#FF746C') +
+  xlab("genres of all videos") + theme_minimal()
+
+youtube_col = c("#FFADAD", "#FF8A8A", "#FF6B6B", "lightgrey", "darkgrey", "#212121")
+
+bar5 <-renamed_data %>%
+  ggplot() +
+  geom_bar(aes(x = watched_all, fill = genre))+
+  xlab("Did I finish the youtube video?") + 
+  theme_minimal() + 
+  scale_fill_manual(values= youtube_col)
+
+
+```
+
+There is currently `r observations` videos in this data!
+
+The average over all of the videos was `r mean_mins` minutes, with the shortest video being `r min_mins` minutes and the longest video being `r max_mins` minutes long.
+
+The rating of all of videos came out to be an average of `r score_mean` out of 5.
+
+
+
+
+```{r}
+bar4
+```
+
+
+
+
+
+This graph shows what genre the video was.
+
+```{r}
+bar5
+
+```
+
+
+
+
+
+
+
+This graph shows if i finished the video, and what genre it was.
+
+
+
+
+
+
+![](https://media1.tenor.com/m/rgiNT2-whkUAAAAd/monkey-orangutan.gif)
+
+
