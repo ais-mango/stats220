@@ -37,12 +37,12 @@ background-color: #FFC7C7
 
 ```
 
-## What have you (tube) been watching??
+## What have You (Tube) been watching??
 
 ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTN4d2I1N2hnNmd4MzNnODJ0bjVmZnJwNXJhMGlmemI4bmx0bnJqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P8CC8QCewsRhRTTQpx/200.webp)
 
 
-This is the observational data of you tube that I have been watching over the last fortnight. Data was collected about the time of watching, the length, retention (how much watched), along with rated scoring.
+This is the observational data of YouTube that I have been watching over the last fortnight. Data was collected about the time of watching, the length, retention (how much watched), along with rated scoring.
 
 ```{r}
 
@@ -85,8 +85,10 @@ bar4<-renamed_data %>%
            fill = '#FF746C') +
   xlab("genres of all videos") + theme_minimal()
 
+#the theme i choose:
 youtube_col = c("#800038","#9F002B","#BF0018","#DF0000","#FF1D00","#FF4B58","#FF707A","#FF959D","#FFBABF", "lightgrey", "darkgrey", "#212121")
 
+#bar graph but coloured by my theme :)
 bar5 <-renamed_data %>%
   ggplot() +
   geom_bar(aes(x = watched_all, fill = genre))+
@@ -136,5 +138,10 @@ This graph shows if i finished the video, and what genre it was.
 
 
 ![](https://media1.tenor.com/m/rgiNT2-whkUAAAAd/monkey-orangutan.gif)
+
+
+
+
+
 
 
