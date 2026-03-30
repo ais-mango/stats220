@@ -37,7 +37,7 @@ background-color: #FFC7C7
 
 ```
 
-## what have you (tube) been watching??
+## What have you (tube) been watching??
 
 ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTN4d2I1N2hnNmd4MzNnODJ0bjVmZnJwNXJhMGlmemI4bmx0bnJqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/P8CC8QCewsRhRTTQpx/200.webp)
 
@@ -75,7 +75,7 @@ total_mins<-renamed_data$total_length_mins
  
  
   score<-renamed_data$video_score
-  score_mean<-mean(score)
+  score_mean<-round(mean(score), digits=1)
   
   
   #this shows grouping of genre (BUT COLOURED)
@@ -85,7 +85,7 @@ bar4<-renamed_data %>%
            fill = '#FF746C') +
   xlab("genres of all videos") + theme_minimal()
 
-youtube_col = c("#FFADAD", "#FF8A8A", "#FF6B6B", "lightgrey", "darkgrey", "#212121")
+youtube_col = c("#800038","#9F002B","#BF0018","#DF0000","#FF1D00","#FF4B58","#FF707A","#FF959D","#FFBABF", "lightgrey", "darkgrey", "#212121")
 
 bar5 <-renamed_data %>%
   ggplot() +
@@ -95,13 +95,14 @@ bar5 <-renamed_data %>%
   scale_fill_manual(values= youtube_col)
 
 
+
 ```
 
 There is currently `r observations` videos in this data!
 
 The average over all of the videos was `r mean_mins` minutes, with the shortest video being `r min_mins` minutes and the longest video being `r max_mins` minutes long.
 
-The rating of all of videos came out to be an average of `r score_mean` out of 5.
+The rating of all of videos came out to be an average of `r score_mean` out of 5 ❤️ .
 
 
 
