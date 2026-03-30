@@ -117,7 +117,7 @@ bar4
 
 
 
-This graph shows what genre the video was.
+This graph shows the distribution of genres I watch.
 
 ```{r}
 bar5
@@ -139,6 +139,11 @@ This graph shows if i finished the video, and what genre it was.
 
 ![](https://i.pinimg.com/originals/64/01/08/640108089dd49e8a82c22d0f6b65a239.gif)
 
+
+
+
+
+How I felt looking at these insights!
 
 
 
